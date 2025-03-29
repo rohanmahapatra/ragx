@@ -1,0 +1,12 @@
+[
+{"node": 1012, "neighbors": [], "partitions": [], "embedding_size": 4, "data_size": 63836, "Number of Neighbors": 15959},
+{"node": 1025, "neighbors": [], "partitions": [], "embedding_size": 4, "data_size": 22264, "Number of Neighbors": 5566},
+{"node": 1029, "neighbors": [], "partitions": [], "embedding_size": 4, "data_size": 11460, "Number of Neighbors": 2865},
+{"node": 1054, "neighbors": [], "partitions": [], "embedding_size": 4, "data_size": 10640, "Number of Neighbors": 2660},
+{"node": 3406, "neighbors": [], "partitions": [], "embedding_size": 4, "data_size": 37924, "Number of Neighbors": 9481},
+{"node": 3593, "neighbors": [], "partitions": [], "embedding_size": 4, "data_size": 13888, "Number of Neighbors": 3472},
+{"node": 3995, "neighbors": [], "partitions": [], "embedding_size": 4, "data_size": 2796, "Number of Neighbors": 699},
+{"node": 5369, "neighbors": [], "partitions": [], "embedding_size": 4, "data_size": 5428, "Number of Neighbors": 1357},
+{"node": 12248, "neighbors": [], "partitions": [], "embedding_size": 4, "data_size": 2200, "Number of Neighbors": 550},
+{"node": 27641, "neighbors": [], "partitions": [], "embedding_size": 4, "data_size": 5760, "Number of Neighbors": 1440}
+]

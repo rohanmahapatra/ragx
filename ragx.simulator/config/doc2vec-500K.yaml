@@ -1,0 +1,54 @@
+benchmark: doc2vec
+kernels:
+  embedding: doc2vec
+  scoring: l1_distance
+  base_directory: compiled_kernels
+dataset_size: 500K
+query:
+  dimensions: 300
+  datatype_bytes: 4
+  batch_size: 1
+  max_subbatches: 4
+execution_mode:
+  parallelism: standalone
+  type: dense
+distance_metric: l1
+num_accelerators: 1
+systolic:
+  size_n: 32
+  size_m: 32
+  memory_size: 2048
+  memory_bandwidth: 512
+vector_processor:
+  num_processors: 32
+  num_lanes: 32
+  memory_size: 2048
+  pipeline_cycles_per_processor: 32
+  kernel: l1
+scalar_unit:
+  num_units: 32
+  register_file_size: 16
+  energy_per_cycle: 0
+memory_unit:
+  memory_bandwidth: 256
+eurekastoresim:
+  total_memory_bandwidth: 1024
+interconnect:
+  topology: ring
+  latency_ns: 72000
+  bandwidth: 4
+genesys_config_path: ragx/genesys/configs/
+genesys_testdir: ragx/genesys/fpga_sim_validation/test/
+genesys_output_dir: test-results/
+genesys_output_file: ragx/genesys/test-results/test.csv
+print_genesys_output: false
+topk: 100
+nvme_latency_ns: 553
+nvme_bandwidth_gbps: 19.2
+page_size: 4096
+d2h_pcie_latency_ns: 137692
+d2h_pcie_bandwidth_gbps: 4.0
+accelerator_freq: 1
+metadata:
+  size_bytes: 32
+  compute_latency: 868.18

@@ -1,0 +1,13 @@
+Total Instructions =  8
+Total Instructions Hints =  8 
+
+Address    Instructions                      Hint           
+0          10101000000000000000000000000000  Start          
+1          10000000000000000000000000000000  set base addr  
+2          10000001000000000000000000000011  set loop iter 0
+3          10000010000000000000000000000101  set loop stride 0
+4          10000001000000010000000000000101  set loop iter 1
+5          10000010000000010000000000000001  set loop stride 1
+6          10000011010000000100000000000000  perm start     
+7          10101100000000000000000000000000  done           
+dict_keys(['obuf', 'ibuf', 'vmem1', 'vmem2', 'imm'])

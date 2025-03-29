@@ -1,0 +1,8 @@
+[
+{"node": "Arthritis", "neighbors": [], "partitions": [], "embedding_size": 4, "data_size": 7040, "Number of Neighbors": 1760},
+{"node": "men", "neighbors": [], "partitions": [], "embedding_size": 4, "data_size": 7164, "Number of Neighbors": 1791},
+{"node": "more", "neighbors": [], "partitions": [], "embedding_size": 4, "data_size": 94600, "Number of Neighbors": 23650},
+{"node": "common", "neighbors": [], "partitions": [], "embedding_size": 4, "data_size": 22452, "Number of Neighbors": 5613},
+{"node": "Rheumatoid", "neighbors": [], "partitions": [], "embedding_size": 4, "data_size": 6756, "Number of Neighbors": 1689},
+{"node": "women?", "neighbors": [], "partitions": [], "embedding_size": 4, "data_size": 15620, "Number of Neighbors": 3905}
+]
