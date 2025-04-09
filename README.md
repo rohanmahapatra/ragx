@@ -388,7 +388,7 @@ To evaluate different configurations, follow these steps:
 
 1. **Generate new execution traces**: You can create new traces for different configurations (e.g., using different models or parameters).
 2. **Compile each kernel/layer**: Ensure that the necessary kernel files for the new configuration are compiled.
-3. **Run the simulator**: Execute the `sweep-run.sh` script to evaluate the performance of the new configuration.
+3. **Run the simulator**: Execute the `run_ragx_simulations.sh` script to evaluate the performance of the new configuration.
 
 The simulator will process these new traces and configurations, providing you with latency measurements that can be compared to baseline results.
 
