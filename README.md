@@ -354,7 +354,7 @@ cd ragx.simulator/
 ```
 
 
-The **`sweep-run.sh`** script automates the entire process of preparing the simulator, running the simulations, and analyzing the results. Here's what the script does step-by-step:
+The **`run_ragx_simulations.sh`** script automates the entire process of preparing the simulator, running the simulations, and analyzing the results. Here's what the script does step-by-step:
 
 1. **Prepares the compiled kernels**: 
    The script first navigates to the `ragx.simulator/` directory and extracts the compiled kernel files from the `compiled_kernels.zip` archive. These kernels are essential for the simulation to compute the latencies for different operations.
